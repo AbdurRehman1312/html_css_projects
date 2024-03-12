@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloen HR Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./resp-mob.css">
+    <link rel="stylesheet" href="./resp-tablet.css">
+    <link rel="stylesheet" href="./resp-laptop-s.css">
+    <link rel="stylesheet" href="./resp-laptop-l.css">
+</head>
+
+<body>
+
+    <!-- /* ------------------------------------MAKING NAVBAR AND SECTION 1---------------------    */ -->
+    <section class="cleonhr">
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="#"><img src="./images/logo.png" alt=""></a>
+                </div>
+                <div class="advisory">
+                    <img src="./images/four-squares.png" alt="">
+                    <span>Free Advisory</span>
+                </div>
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-btn"><i class="fa-solid fa-bars" id="bars" style="color: #ffffff;"></i></label>
+                <ul class="menu">
+                    <div class="cross-div">
+                        <input type="checkbox" name="" id="click">
+                        <label for="click" class="menu-btn"><i class="fa-regular fa-circle-xmark"></i></label>
+                    </div>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#">Products</a></li>
+                </ul>
+                <div class="login-button">
+                    <button type="submit">Login</button>
+                </div>
+            </nav>
+        </header>
+
+        <!-- /* ------------------------------------MAKING MAIN SECTION----------------------------    */ -->
+
+        <div class="main-flex">
+            <div class="main-img">
+                <img src="./images/main-img.png" alt="">
+            </div>
+            <div class="login-page">
+                <form action="POST" class="login-form">
+                    <h4>RESET PASSWORD</h4>
+                    <input type="password" placeholder="Confirm Old Password">
+                    <input type="password" placeholder="New Password">
+                    <input type="password" placeholder="Confirm New Password">
+                    <div class="reset-flex">
+                        <div class="reset-button">
+                            <a href="#">Reset<i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                        <div class="login-here">
+                            <span>Already Have an account ?</span>
+                            <a href="#">Login Here</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- ------------------------------------MAKING PROFILE SECTION---------------------------- -->
+        <div class="profile">
+            <div class="pf-pic">
+                <img src="./images/pf-pic.webp" alt="">
+            </div>
+            <div class="review">
+                <h3>James Micheal</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, totam tempora corporis soluta dolores nesciunt itaque officia perspiciatis, debitis, nam exercitationem</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

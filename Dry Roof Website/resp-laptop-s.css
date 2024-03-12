@@ -1,0 +1,885 @@
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /*---------------------------------- RESPONSIVE BANNER 1 AND HEADER ---------------------------------*/
+  .banner-1 {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)),
+      url("./Images/banner-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 20%;
+    background-image: url("./Images/texture-bg.png");
+    background-repeat: no-repeat;
+  }
+  .navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    width: 20%;
+    height: 100%;
+  }
+  .logo img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0;
+  }
+  .menu {
+    font-size: 16px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .contact-banner {
+    text-align: center;
+    width: 30%;
+    padding: 35px 0px;
+    margin: 0;
+    background-color: rgb(247, 175, 22);
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    /* border-bottom-left-radius: 200px; */
+  }
+  .contact-banner h1,
+  .contact-flex {
+    color: black;
+    width: 100%;
+  }
+  .contact-banner h1 {
+    width: 100%;
+    font-size: 18px;
+  }
+  .contact-flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-flex h1 {
+    width: 100%;
+    font-size: 25px;
+    margin: 0;
+  }
+  .fa-solid {
+    font-size: 25px;
+    color: black;
+    margin-left: 20px;
+  }
+  #home {
+    color: rgb(247, 175, 22);
+    border-bottom: 2px solid rgb(247, 175, 22);
+  }
+  .menu li a:hover {
+    color: rgb(247, 175, 22);
+  }
+
+  /*------------------------------------ STYLING BANNER DESCRIPTION ---------------------------------- */
+  .banner-desc {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .banner-desc p {
+    width: 100%;
+    margin-top: 80px;
+    font-size: 20px;
+  }
+  .fa-circle {
+    color: rgb(247, 175, 22);
+    font-size: 16px;
+  }
+  .main-heading {
+    width: 100%;
+    margin-top: 25px;
+    font-size: 26px;
+  }
+
+  .main-heading-para {
+    width: 70%;
+    margin: auto;
+  }
+  .main-heading-para p {
+    margin-top: 10px;
+    padding: 20px;
+    color: rgb(215, 216, 216);
+  }
+  .rating-reviews {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .google-rating {
+    margin: 10px;
+  }
+  .fa-brands {
+    font-size: 25px;
+  }
+  .fa-star {
+    color: rgb(247, 175, 22);
+    font-size: 25px;
+  }
+  .contact-info-form {
+    width: 90%;
+    /* margin: 30px 15px; */
+    height: auto;
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .contact-info-form p {
+    font-size: 25px;
+    text-align: left;
+    padding: 10px;
+  }
+  .contact-form form {
+    padding: 10px;
+    text-align: center;
+  }
+  .contact-form input {
+    width: 90%;
+    height: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid gray;
+    margin: 10px 10px 35px;
+  }
+  .contact-form input:hover {
+    border: 1px solid rgb(247, 175, 22);
+  }
+  .contact-form form a {
+    background-color: rgb(247, 175, 22);
+    padding: 10px 60px 10px 60px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: black;
+    width: 100%;
+    height: 100%;
+  }
+  .contact-form form a:hover {
+    background-color: black;
+    border: 1px solid rgb(247, 175, 22);
+    color: white;
+    transition: all 0.2s ease-in-out 0s;
+    border-radius: 2px;
+  }
+  .brands {
+    background-color: rgb(71, 70, 70);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+  }
+  .brands img {
+    width: 15%;
+  }
+  .brand-icon {
+    width: 100%;
+    height: 100%;
+  }
+
+  /*---------------------------------- RESPONSIVE ABOUT US SECTION ---------------------------------*/
+  .about-us {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #about-b-shap {
+    width: 100%;
+    position: relative;
+    top: -10px;
+  }
+  .about-img {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    bottom: 100px;
+  }
+  .about-img img {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 100%;
+  }
+  .about-para {
+    width: 50%;
+    padding: 80px 10px;
+    font-size: 20px;
+  }
+
+  .about-para h1 {
+    width: 50%;
+    padding: 10px;
+    font-size: 35px;
+    border-bottom: 1px solid rgb(247, 175, 22);
+  }
+  .about-para a {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 160px;
+    background-color: rgb(247, 175, 22);
+    padding: 10px 25px 10px 25px;
+    font-size: 20px;
+    color: black;
+    border-radius: 4px;
+  }
+  /*------------------------------ RESPONSIVE WHY COOOSE US SECTION ---------------------------------  */
+
+  .why-choose-us {
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    background-image: url("./Images/texture-bg.png");
+  }
+  #choose-b-shape {
+    width: 100%;
+    position: relative;
+    top: -25px;
+  }
+  .wcu-heading {
+    text-align: center;
+    font-size: 35px;
+  }
+  #heading2 {
+    color: rgb(247, 175, 22);
+    font-size: 45px;
+  }
+  .reason-icon {
+    background-color: rgb(247, 175, 22);
+    border-radius: 15px;
+    font-size: 25px;
+  }
+  .icons {
+    width: 100%;
+    height: 100%;
+  }
+  .diff-icons {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .icons-heading {
+    width: 100%;
+  }
+  .icons-heading span {
+    width: 100%;
+    font-size: 25px;
+  }
+  .reasons-desc {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .reasons-desc p {
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+    border-left: 3px solid rgb(247, 175, 22);
+  }
+
+  /*-------------------------------- RESPONSIVE SERVICES CARDS ----------------------------------  */
+  .our-services {
+    padding: 60px 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.884);
+  }
+  #b-shape {
+    width: 100%;
+    position: relative;
+    top: -73px;
+    right: 1px;
+  }
+  .services-heading {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .services-heading h1 {
+    font-size: 45px;
+  }
+  /* .services-heading hr{
+          width: 20%;
+          margin-top: 10px;
+          border: 2px solid rgb(247, 175, 22);
+          position: relative;
+          left: 500px;
+      } */
+  .services-heading p {
+    width: 70%;
+    color: rgb(138, 138, 138);
+    margin: auto;
+    margin-top: 20px;
+    padding: 0;
+  }
+  .our-services-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin: 20px 5px;
+  }
+  .service-card {
+    width: 30%;
+    height: 100%;
+    margin: auto;
+  }
+  .service-img img {
+    margin: 0;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .desc-h {
+    width: 80%;
+    /* margin: 0px 5px; */
+  }
+  .desc-p {
+    width: 40%;
+    padding: 15px;
+  }
+  .service-desc a {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: rgb(247, 175, 22);
+    color: black;
+    border-radius: 4px;
+  }
+  .service-desc p {
+    width: 100%;
+    margin: 20px 0px;
+    border-left: 1px solid rgb(247, 175, 22);
+  }
+  .service-link {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .service-desc a:hover {
+    background-color: rgba(0, 0, 0, 0.884);
+    color: white;
+    border: 1px solid rgb(247, 175, 22);
+    transition: all 0.4s ease-in-out 0s;
+  }
+  /*------------------------------ RESPONSIVE BANNER 2 SECTION ---------------------------------  */
+  .banner-2 {
+    padding: 20px 0px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(17, 17, 17);
+  }
+  .banner2-bgimg {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)),
+      url("./Images/banner-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .banner2-desc {
+    padding: 50px 0px;
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .banner2-heading {
+    margin-left: 5px;
+    width: 40%;
+    font-size: 30px;
+  }
+  .banner2-para {
+    padding: 0;
+    margin-left: 5px;
+    width: 50%;
+    line-height: 1.2rem;
+  }
+  .banner2-para p {
+    padding: 10px;
+    width: 100%;
+    border-left: 1px solid rgb(247, 175, 22);
+    font-size: 16px;
+  }
+  .banner2-link {
+    padding: 10px;
+    margin: 30px 0px; 
+  }
+  .banner2-link a {
+    padding: 10px 5px;
+    color: rgb(17, 17, 17);
+    background-color: rgb(247, 175, 22);
+    border: 1px solid rgb(17, 17, 17);
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+  }
+  .banner2-link a:hover {
+    color: white;
+    background-color: rgb(17, 17, 17);
+    border: 1px solid rgb(247, 175, 22);
+    transition: all 0.3s ease-in-out 0s;
+  }
+  /*------------------------------ RESPONSIVE LATEST PROJECT SECTION ---------------------------------  */
+
+  .our-latest-projects {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.884);
+    padding: 20px;
+  }
+  #left-project-shape {
+    width: 100%;
+    position: relative;
+    top: -45px;
+    right: 20px;
+    overflow: hidden;
+  }
+  .project-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  /* hr {
+        width: 20%;
+        border: 2px solid rgb(247, 175, 22);
+        position: relative;
+        left: 530px;
+        margin-top: 25px;
+        display: none;
+      } */
+
+  .projects {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    /* padding: 30px; */
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .first-project {
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+  .first-project,
+  .remained-projects {
+    width: 50%;
+    height: 100%;
+  }
+
+  #project-1 {
+    height: 100%;
+    width: 100%;
+  }
+  .project1-img img {
+    width: 100%;
+    height: 50%;
+  }
+  #project-2 img,
+  #project-3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .second-flex {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .project1-desc {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    position: absolute;
+  }
+  .project1-desc p {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .project1-desc h1 {
+    padding: 10px;
+    font-size: 26px;
+  }
+  .link-project1 {
+    padding: 0;
+    margin: 0;
+  }
+  .link-project1 a {
+    top: 220px;
+    left: 20px;
+    margin-top: 40px;
+    background-color: rgb(247, 175, 22);
+    color: black;
+  }
+
+  .link-project1 a:hover {
+    color: white;
+    background-color: rgb(4, 4, 10);
+    border: 1px solid rgb(247, 175, 22);
+  }
+
+  .our-latest-projects a {
+    padding: 5px;
+    background-color: rgb(247, 175, 22);
+    color: black;
+  }
+
+  .our-latest-projects a:hover {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    border: 1px solid rgb(247, 175, 22);
+  }
+
+  /*------------------------------ RESPONSIVE PROCESS SECTION ---------------------------------  */
+
+  .processes {
+    width: 100%;
+    height: 100%;
+    background-image: url("./Images/texture-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-bottom: 100px; */
+  }
+  .yellow-line {
+    width: 100%;
+  }
+  .yellow-line img {
+    width: 100%;
+  }
+  .process-heading {
+    font-size: 40px;
+    text-align: center;
+  }
+  .process-cards-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: -50px;
+  }
+  .process-card {
+    text-align: center;
+    width: 20%;
+    height: 100%;
+    margin-top: 80px;
+  }
+  .process-icon {
+    font-size: 30px;
+    color: rgb(247, 175, 22);
+    background-color: rgb(17, 17, 17);
+    border: 3px solid rgb(247, 175, 22);
+    padding: 60px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  .number {
+    background-color: white;
+    width: 50%;
+    padding: 20px;
+    border: 3px solid rgb(247, 175, 22);
+  }
+  .process-img {
+    text-align: center;
+  }
+  .number h1 {
+    color: black;
+  }
+  .back-yellow-line {
+    width: 100%;
+    position: relative;
+    top: 185px;
+  }
+  .back-yellow-line img {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  .process-icon:hover {
+    background-color: rgb(247, 175, 22);
+    color: rgb(17, 17, 17);
+    border: 3px solid rgb(17, 17, 17);
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .process-desc {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  /*--------------------------RESPONSIVE OUR SERVICES CARDS-------------------------*/
+
+  .our-customer-reviews {
+    width: 100%;
+    height: auto;
+    background-color: rgba(77, 69, 4, 0.897);
+  }
+  .review-heading {
+    text-align: center;
+  }
+  .review-heading h1 {
+    font-size: 35px;
+    padding-top: 60px;
+  }
+  .review-heading h2 {
+    font-size: 40px;
+  }
+  .customer-reviews {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .review-card {
+    width: 30%;
+    background-color: white;
+    margin-top: 5px;
+  }
+  .card-img {
+    width: 100%;
+    margin-top: 2px;
+  }
+  .customer-name {
+    margin: 10px 0px;
+    padding: 0px 10px;
+    width: 100%;
+  }
+  .customer-name img {
+    padding-left: 5px;
+    width: 70%;
+  }
+  .customer-name h3 {
+    width: 100%;
+    font-size: 14px;
+    color: black;
+  }
+  #img {
+    width: 40%;
+    height: 20%;
+    border-radius: 50%;
+  }
+  .review p {
+    color: black;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+  }
+  .fb-review span {
+    text-align: center;
+    color: black;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 15px;
+  }
+  #fb-review {
+    color: rgb(27, 27, 207);
+    font-size: 25px;
+  }
+  #stars {
+    margin-top: 10px;
+  }
+  .review-card:hover {
+    box-shadow: 0px 0px 0px 4px rgb(247, 175, 22);
+  }
+  /*------------------------------ RESPONSIVE OUR LOCATION SECTION ---------------------------------  */
+
+  .our-location {
+    background-color: rgba(0, 0, 0, 0.884);
+  }
+  .locations {
+    padding: 35px;
+  }
+  #location-b-shap {
+    width: 100%;
+    position: relative;
+    top: -10px;
+  }
+  .location-heading {
+    font-size: 25px;
+  }
+  /* .location-heading hr{
+        width: 20%;
+        border: 3px solid rgb(247, 175, 22);
+        position: relative;
+        left: 20px;
+      } */
+  .areas {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .areas a {
+    padding: 10px;
+    border: 2px solid rgb(247, 175, 22);
+    margin: 10px;
+  }
+  iframe {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    width: 80%;
+    height: 100%;
+  }
+
+  /*------------------------------ RESPONSIVE CONTACT US SECTION ---------------------------------  */
+
+  .contact-us-section {
+    width: 100%;
+    height: auto;
+    background-image: url("./Images/texture-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #contact-b-shape {
+    position: relative;
+    width: 100%;
+    top: -20px;
+  }
+  .contact-us {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .contact-img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 10px;
+  }
+  .contact-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .form-for-contact {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .form-heading {
+    font-size: 25px;
+    width: 100%;
+  }
+  .contact-us-form {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .contact-us-form input {
+    width: 100%;
+    padding: 10px 5px;
+    background: transparent;
+    border: 1px solid gray;
+    margin-bottom: 15px;
+  }
+  .contact-us-form input:hover {
+    border: 1px solid rgb(247, 175, 22);
+  }
+  .button button {
+    padding: 10px 10px;
+    color: black;
+    background-color: rgb(247, 175, 22);
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  .button button:hover {
+    background: transparent;
+    color: white;
+    border: 1px solid rgb(247, 175, 22);
+  }
+  /*------------------------------ RESPONSIVE FOOTER SECTION ---------------------------------  */
+
+  .section-footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(4, 4, 10);
+  }
+  .footer-div {
+    margin: 0px 10px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.footer-div h3 {
+    font-size: 18px;
+    padding-top: 10px;
+}
+.footer-div img {
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+.footer-div p {
+    position: absolute;
+    top: 120px;
+    padding: 10px;
+    font-size: 10px;
+  }
+  .footer-div h2 {
+    font-size: 23px;
+  }
+  .footer-flex {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-bottom: 2px solid rgb(247, 175, 22);
+  }
+  .social-media-icons {
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+  }
+  .social-media-icons i {
+    font-size: 20px;
+    padding: 5px 5px;
+  }
+  .roof-footer {
+    padding: 20px;
+  }
+  .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+  }
+}

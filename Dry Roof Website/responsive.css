@@ -1,0 +1,181 @@
+/* @media screen and (min-width:768px) and (max-width:1024px) {
+    .banner-1{
+    max-width: 100%;
+
+    }
+    .about-us {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+      .about-img{
+        width: 80%;
+      }
+      .about-img img {
+        display: block;
+        margin: auto;
+        width:80%;
+        height: 100%;
+      }
+      .about-para {
+        width: 100%;
+        padding: 50px;
+      }
+      .about-para h1 {
+        width: 70%;
+        padding: 20px;
+        font-size: 60px;
+        margin-bottom: 260px;
+        border-bottom: 1px solid rgb(247, 175, 22);
+      }
+      .about-para p {
+        position: relative;
+        bottom: 230px;
+      }
+      .about-para a {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        bottom: 160px;
+        background-color: rgb(247, 175, 22);
+        padding: 20px 50px 20px 50px;
+        font-size: 20px;
+        color: black;
+        border-radius: 4px;
+      }
+      .our-services-cards{
+        margin: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      
+      }
+      .service-card{
+        width: 25%;
+        height: 100%;
+      }
+      .service-img img{
+        width: 90%;
+        height: 250px;
+      }
+      .desc-h{
+        padding-top: 35px;
+      }
+      .desc-p{
+        padding: 15px;
+      }
+      .service-desc a{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        background-color: rgb(247, 175, 22);
+        color: black;
+        border-radius: 4px;
+      }
+      .service-desc p{
+        margin: 10px;
+        margin-top: 20px;
+        border-left: 1px solid rgb(247, 175, 22);
+      }
+      .service-link{
+        margin-top: 30px;
+      }
+      .service-desc a:hover{
+        background-color: rgba(0, 0, 0, 0.884);
+        color: white;
+        border: 1px solid rgb(247, 175, 22);
+        transition: all 0.4s ease-in-out 0s;
+      }
+
+
+
+
+      .our-customer-reviews{
+        width: 100%;
+        height: auto;
+        background-color: rgba(77, 69, 4, 0.897);
+      }
+      .review-heading{
+        text-align: center;
+      }
+      .review-heading h1{
+        font-size: 50px;
+        padding-top: 120px;
+      }
+      .review-heading h2{
+        font-size: 45px;
+      }
+      .customer-reviews{
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-bottom: 150px;
+      }
+      .review-card{
+        width: 50%;
+        height: auto;
+        background-color: white;
+        margin-top: 10px;
+      }
+      .customer-name{
+        width: 80%;
+        padding: 20px;
+      }
+      .customer-name img{
+        width: 50%;
+        
+      }
+      .customer-name h3{
+      
+        color: black;
+      }
+      .card-img{
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+      }
+      #img{
+        width: 30%;
+        border-radius: 50%;
+      }
+      .review{
+        margin-top: 10px;
+      }
+      .review p{
+        color: black;
+        padding: 40px;
+        line-height: 1.5rem;
+      }
+      .fb-review{
+        margin-top: 20px;
+        padding: 20px;
+      }
+      .fb-review span{
+        color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20px;
+      
+      }
+      #fb-review{
+        color: rgb(27, 27, 207);
+        font-size: 30px;
+        padding-left: 20px;
+      }
+      #stars{
+        margin-top: 10px;
+      }
+      .review-card:hover{
+        box-shadow: 0px 0px 0px 4px rgb(247, 175, 22);
+      }
+}
+
+ */

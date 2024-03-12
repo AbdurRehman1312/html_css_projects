@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./facebook.css">
+    <link rel="stylesheet" href="resp-mob.css">
+    <link rel="stylesheet" href="resp-tablet.css">
+    <link rel="stylesheet" href="resp-laptop-s.css">
+</head>
+<body>
+    <header>
+
+        <!-- ------------------------------MAKING NAVBAR-----------------------------  -->
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#"><img src="./images/fb-logo.png" alt=""></a>
+            </div>
+            <div class="fb-login">
+                <form action="POST" class="login-form">
+                    <div class="input-email">
+                        <label for="email-phone">Email or phone</label><br>
+                        <input type="text" name="email-phone" id="email-phone">
+                    </div>
+                    <div class="input-pass">
+                        <label for="password">Password</label><br>
+                        <input type="password" name="password" id="password">
+                        <p>Forget password?</p>
+                    </div>
+                    <button type="submit">Log In</button>
+                </form>
+            </div>
+        </nav>
+
+        <!-- ---------------------------MAIN SECTION LOGIN FORM------------------------- -->
+
+
+        <section class="facebook">
+            <div class="section-facebook">
+                <div class="fb-image">
+                    <h1>Facebook helps you connect and share with the people in your life</h1>
+                    <img src="./images/fb-image.PNG" alt="">
+                </div>
+                <div class="fb-signup">
+                    <div class="signup-heading">
+                        <h1>Create an account </h1>
+                        <span>It's quick and easy.</span>
+                    </div>
+                    <form action="POST" class="signup-form">
+                        <div class="fn-ln">
+                            <input type="text" name="First Name" id="fn" placeholder="First Name">
+                            <input type="text" name="Last Name" id="ln" placeholder="Last Name">
+                        </div>
+                        <input type="text" name="email_phone" id="email_phone"
+                            placeholder="Mobile Number or Email Address">
+                        <p><input type="password" name="password" id="su-password" placeholder="New Password"></p>
+                        <div class="birthday-gender">
+                            <label for="birthday">Birthday</label><br>
+                            <div class="flex-icon">
+                                <select name="birthdate" id="birthdate">
+                                    <option value="22">22</option>
+                                </select>
+                                <select name="birthdate" id="birthdate">
+                                    <option value="22">April</option>
+                                </select>
+                                <select name="birthdate" id="birthdate">
+                                    <option value="22">2000</option>
+                                </select>
+                                <img id="question-mark" src="./images/question.png" alt="">
+                            </div>
+                            <p>Gender</p><br>
+                            <div class="flex-icon">
+                                <input type="radio" name="male" id="male">
+                                <label for="male">Male</label>
+                                <input type="radio" name="female" id="female">
+                                <label for="female">Female</label>
+                                <input type="radio" name="custom" id="custom">
+                                <label for="custom">Custom</label>
+                                <img id="question-mark" src="./images/question.png" alt="">
+                            </div>
+                        </div>
+                        <p class="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet illum rerum
+                            earum neque culpa
+                        </p>
+                        <button type="submit">Sign Up</button>
+                        <p class="lorem">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </header>
+    <footer>
+        <div class="links">
+            <div class="first-line-links">
+                <a href="#">English(UK)</a>
+                <a href="#">Urdu</a>
+                <a href="#">Hindi</a>
+                <a href="#">French</a>
+                <a href="#">Spanish</a>
+                <a href="#">Turkish</a>
+                <a href="#">Farsi</a>
+                <a href="#">Siraki</a>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="second-line-links">
+                <a href="#">Sign Up</a>
+                <a href="#">Log in</a>
+                <a href="#">Messenger</a>
+                <a href="#">Facebook lite</a>
+                <a href="#">Watch</a>
+                <a href="#">Pages</a>
+                <a href="#">Page Categories</a>
+                <a href="#">Places</a>
+                <a href="#">Games</a>
+                <a href="#">Location</a>
+                <a href="#">Marketplace</a>
+                <a href="#">French</a>
+                <a href="#">Instagram</a>
+                <a href="#">Local</a>
+                <a href="#">Services</a>
+                <a href="#">Blog</a>
+                <a href="#">Help</a>
+                <a href="#">Urdu</a>
+                <p>Facebook &copy; 2020</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

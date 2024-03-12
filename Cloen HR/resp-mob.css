@@ -1,0 +1,220 @@
+@media screen and (max-width: 600px) {
+  /* ------------------------------------STYLING NAVBAR AND SECTION 1----------------------------------    */
+  .cleonhr {
+    width: 100%;
+    background: linear-gradient(
+      90deg,
+      rgba(236, 69, 149, 1) 46%,
+      rgba(184, 108, 146, 1) 100%
+    );
+  }
+  .navbar {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    width: 40%;
+    padding: 27px 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  .logo img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .advisory {
+    width: 5%;
+    font-size: 14px;
+    border: 1px solid #ec4595;
+    color: whitesmoke;
+    cursor: pointer;
+    display: none;
+  }
+  .advisory img {
+    width: 5%;
+    margin-top: 2px;
+  }
+  .advisory span {
+    margin-left: 10px;
+    font-size: 18px;
+    padding-bottom: 12px;
+  }
+
+  .menu {
+    width: 99%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+  }
+  nav ul {
+    position: absolute;
+    background-color: #ec4595;
+    top: -100%;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    z-index: 111;
+    transition: all 0.5s ease 0s;
+    color: white;
+    align-items: center;
+  }
+  .menu a {
+    font-weight: 600;
+    color: white;
+    padding: 8px 5px;
+  }
+  .login-button {
+    width: 30%;
+    position: relative;
+    right: 0;
+    display: none;
+  }
+  .menu a:hover {
+    border-radius: 4px;
+    background-color: white;
+    color: #ec4595;
+  }
+
+  nav .menu-btn i {
+    display: block;
+  }
+  #click:checked ~ ul {
+    top: 0%;
+  }
+  #click {
+    display: none;
+  }
+  #bars {
+    font-size: 30px;
+    display: block;
+    position: relative;
+    right: 20px;
+  }
+  .fa-circle-xmark {
+    color: #fff;
+    position: absolute;
+    right: 25px;
+    top: 30px;
+  }
+  /* ------------------------------------STYLING MAIN SECTION ----------------------------------    */
+
+  .main-flex {
+    margin-top: 5%;
+    padding: 20px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .main-img {
+    padding: 20px 10px;
+    width: 100%;
+    margin: auto;
+  }
+  .main-img img {
+    width: 100%;
+  }
+  .login-page {
+    width: 100%;
+    padding: 20px 10px;
+  }
+  .login-form {
+    background-color: white;
+    border-radius: 40px;
+    float: right;
+    margin: 0;
+    width: 100%;
+  }
+  .login-form h4 {
+    margin-bottom: 20px;
+  }
+  .login-form input {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 6px;
+    border-radius: 8px;
+    border: 1px solid gray;
+  }
+  .login-form input:hover {
+    border: 1px solid #ec4595;
+    box-shadow: 0px 0px 0px 2px #ec4595;
+  }
+  .login-form input:focus {
+    outline: 2px solid #ec4595;
+    border: none;
+  }
+  .reset-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+  .reset-button {
+    width: 100%;
+  }
+  .login-here {
+    width: 100%;
+    font-size: 10px;
+    margin-bottom: 1px;
+    margin-top: -20px;
+    padding-left: 10px;
+  }
+  .reset-button a {
+    color: white;
+    padding: 5px 17px;
+    background-color: #ec4595;
+    border-radius: 15px;
+    font-size: 14px;
+  }
+  .fa-arrow-right {
+    margin-left: 25px;
+  }
+  .login-here a {
+    color: #ec4595;
+  }
+  .reset-button a:hover {
+    color: #ec4595;
+    background-color: white;
+    box-shadow: 0px 0px 0px 2px #ec4595;
+    transition: all 0.3s ease 0s;
+  }
+
+  /* -----------------------------------------STYLING PROFILE SECTION---------------------------------  */
+
+  .profile {
+    margin-top: -30px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top-right-radius: 120px;
+  }
+  .pf-pic {
+    width: 60%;
+  }
+  .pf-pic img {
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
+  .review {
+    margin: auto;
+    text-align: center;
+    padding: 10px 5px;
+    width: 100%;
+  }
+  .review p {
+    margin: auto;
+    width: 95%;
+    margin-top: 10px;
+    font-size: medium;
+    word-break:initial;
+  }
+}
